@@ -10,6 +10,7 @@ import { AgGridModule } from 'ag-grid-angular';
 import { GridComponent } from './grid/grid.component';
 import { OpportunitiesComponent } from './grid/opportunities.component';
 import { HeaderComponent } from './header/header.component';
+import { Chart3Component } from './chart3.component';
 @NgModule({
   imports: [
     ChartsModule,
@@ -22,6 +23,7 @@ import { HeaderComponent } from './header/header.component';
     AppComponent,
     Chart1Component,
     Chart2Component,
+    Chart3Component,
     GridComponent,
     OpportunitiesComponent,
     HeaderComponent,

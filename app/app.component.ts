@@ -14,7 +14,9 @@ import { Component } from '@angular/core';
     
     <chart1></chart1>
     <chart2></chart2>
-    <div class="row">
+    <chart3></chart3>
+
+    <div class="row" style="margin-top:30px">
     <div class="col-md-4">
      <app-grid></app-grid>
     </div>
