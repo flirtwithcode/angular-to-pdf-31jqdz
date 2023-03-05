@@ -1,5 +1,6 @@
 <div style="display: block;">
-  <label for=""> <h5>Front Stage Activities</h5></label>
+  <label for=""> <h5>Back Stage Activities</h5></label>
+  <hr />
   <canvas
     #myCanvas
     baseChart
@@ -14,4 +15,35 @@
     [plugins]="lineChartPlugins"
   >
   </canvas>
+  <div
+    style=" border: 0px solid black;
+  margin: 1px;
+  padding: 1px 1px;
+  text-align: right;"
+  >
+    <div
+      style="display: inline-block;
+  border: 1px solid grey;
+  padding: 8px 8px;
+  vertical-align: middle;
+  background:#E2F8B5"
+    ></div>
+    <span style="font-size:12px"> Happy </span>
+    <div
+      style="display: inline-block;
+border: 1px solid grey;
+padding: 8px 8px;
+vertical-align: middle;
+background:#F0F1C7;"
+    ></div>
+    <span style="font-size:12px"> Neutral </span>
+    <div
+      style="display: inline-block;
+border: 1px solid grey;
+padding: 8px 8px;
+vertical-align: middle;
+background:#FFE9E9;"
+    ></div>
+    <span style="font-size:12px"> Sad</span>
+  </div>
 </div>

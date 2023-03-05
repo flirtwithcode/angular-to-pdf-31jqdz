@@ -81,11 +81,11 @@ export class OpportunitiesComponent implements OnInit {
       {
         Opportunities:
           'Move management of ACH returns from GWA to workflow tool (GIN)',
-        Opportunities1: 'Enhance on screen notifications',
+        Opportunities1: 'Enhance on screen notifications Online',
       },
       {
         Opportunities: 'Increase automation to reduce breaks',
-        Opportunities1: '',
+        Opportunities1: 'Enhance on screen notifications',
       },
     ];
     // this.rowData$2 = [

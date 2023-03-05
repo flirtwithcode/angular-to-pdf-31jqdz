@@ -44,8 +44,6 @@ my-app > .k-icon.k-i-loading {
   margin-top: 50px;
   margin-bottom: 50px;
   float: right;
-  background-color: rgba(0, 0, 0, 0.03);
-  border: 1px solid rgba(0, 0, 0, 0.08);
 }
 .event-log {
   margin: 0;
@@ -69,6 +67,12 @@ my-app > .k-icon.k-i-loading {
   background-image: url('https://portal.accenture.com/imagesnew/accenturelogo.png');
   background-repeat: no-repeat;
 }
+label {
+  display: inline-block;
+  margin-bottom: 0 !important;
+  font-family: sans-serif;
+}
+
 @import '~bootstrap/dist/css/bootstrap.min.css';
 
 /* You can add global styles to this file, and also import other style files */
